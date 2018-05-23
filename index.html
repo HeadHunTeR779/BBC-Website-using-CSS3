@@ -8,17 +8,31 @@
 
     <style type='text/css'>
 
-      p{
-        color:red;
-        font-size:200%;
-      }
+    body{
+        background-image: url('https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-903ea3cb.jpg');
+        background-size: 100%;
+    }
 
-      h1{
+    .red
+    {
+      color:red;
+    }
 
-          color:deeppink;
+    #first-section{
+      color:lightgreen;
+      width:300px;
+      float: left;
+    }
 
-      }
+    #mid-section{
+      color:purple;
+      width:50%;
+      float: right;
+    }
 
+    .clear-float{
+      clear:both;
+    }
 
     </style>
 
@@ -26,11 +40,19 @@
 
   <body>
 
-    <p>My Name is Dipankar</p>
+    <div id = 'first-section'>
+      <p>My Name is Dipankar</p>
+      <p>Internal CSS is lovely!</p>
+  </div>
 
-    <p>Internal CSS is lovely!</p>
+    <div id = 'mid-section'>
+      <p> This is some more text</p>
+      <h1>CSS is Cool!</h1>
+  </div>
 
-    <h1>CSS is Cool!</h1>
+    <div class = 'clear-float'>
+    <p>This text goes in the MIDDLE</p>
+  </div>
 
   </body>
 
